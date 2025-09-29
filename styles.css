@@ -1,1 +1,47 @@
-/*  your css code here. If applicable */
+
+		/* Hero container */
+		.hero {
+			display: flex;                    /* arrange items side by side */
+			justify-content: center;          /* center horizontally */
+			align-items: center;              /* center verticalhttps://www.svgrepo.com/show/345223/three-dots-vertical.svgly */
+			height: 100vh;                    /* full viewport height */
+			       /* light background */
+			gap: 20px;                        /* space between image & text */
+			padding: 20px;
+		}
+
+		/* Image styling */
+		.hero img {
+			width: 600px;
+			height: 300px;
+			object-fit: cover;                /* clip if aspect ratio mismatches */
+			border-radius: 10px;              /* rounded corners */
+		}
+
+		/* Text content */
+		.text {
+			max-width: 400px;
+		}
+		.text h2 {
+			font-size: 28px;
+			margin-bottom: 10px;
+		}
+		.text p {
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+
+		/* Button styling */
+		#btn {
+			padding: 12px 24px;
+			background-color: #e60023;        /* Pinterest red */
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+			border: none;
+			border-radius: 8px;
+			cursor: pointer;
+		}
+		#btn:hover {
+			background-color: #c4001d;        /* darker red on hover */
+		}
